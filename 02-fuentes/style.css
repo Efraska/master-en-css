@@ -1,0 +1,36 @@
+/* body {
+    background: lightcoral;
+} */
+h1 {
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-style: 3.125em;
+    text-transform: uppercase;
+
+    /* Colores */
+    /* Colores del sistema */
+    color: mediumpurple;
+
+    /* Colores hexadecimales */
+    color: #cccccc;
+
+    /* Colores RGB */
+    color: rgb(255, 255, 107);
+
+    /* Colores RGBA */
+    color: rgba(255, 19, 38, 0.5);
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.625em;
+    font-weight: lighter;
+    color: olive;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+}
