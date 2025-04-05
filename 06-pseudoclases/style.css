@@ -1,0 +1,53 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child {
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: yellow;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: gray;
+    font-weight: bold;
+}
+
+#mi-enlace {
+    font-size: 30px;
+    color: lightcoral;
+}
+
+#mi-enlace:link {
+    color: red;
+}
+
+#mi-enlace:visited {
+    color: yellow;
+}
+
+#mi-enlace:hover {
+    color: blue;
+}
+
+#mi-enlace:active {
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus {
+    border: 4px dashed red;
+}
